@@ -38,8 +38,8 @@ PARAMETERS:
 PLAN:
 1. Create an array of columns from INFORMATION_SCHEMA.
 2. Use the values in that array to create some SQL.
-3. If LIST_KEY = 'BASELINE' then run an unfiltered snapshot on the table.'
-4. IF LIST_KEY <> 'BASELINE' then use the value in LIST_KEY to filter META.TABLE_SCAN_LIST.LIST_KEY and join META.TABLE_SCAN_LIST.LIST_VALUE against the tables defined in (1).
+3. If LIST_KEY = 'BASELINE' then run an unfiltered snapshot on the column.
+4. IF LIST_KEY <> 'BASELINE' then use the value in LIST_KEY to filter META.TABLE_SCAN_LIST.LIST_KEY and join META.TABLE_SCAN_LIST.LIST_VALUE against the columns defined in (1).
     
 I used Javascript to do this b/c I couldn't get more than one column to show up in a WHILE loop in Snowscript. Otherwise this is pretty basic.   
     
