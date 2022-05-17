@@ -7,7 +7,7 @@ A similar system can be developed for any cloud data warehouse platform that use
 
 WHY: 
 Some of this functionality is available in a data catalog product, which can be used to scan databases and file systems for patterns and in some cases specific 
-values. The current (20220517) primary implementations of data catalogs is to use regex queries against values to identify PII. This is a profoundly useful 
+values. The current (20220517) primary use for data catalogs is to run regex scans against values to identify likely PII fields. This is a profoundly useful 
 workflow, but only a small subset of the actual problems we need a data catalog to solve.
     
 We need to be able to scan large numbers of tables across multiple databases for specific sets of values. Those sets of values might be specific key values such 
