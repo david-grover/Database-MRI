@@ -1,7 +1,7 @@
 # Database-MRI
 
 DESCRIPTION:
-The Database MRI is a simple implementation of a controlled database scan using dynamic SQL. The SQL is generated in a stored procedure using Javascript for Snowflake and the results are stored in a database table for analysis.  The proc can be set to query columns for specific values, stored in another table, to generate statistics for specific filters as well.
+The Database MRI is a simple implementation of a controlled database scan using dynamic SQL, laterally across tables. The SQL is generated in a stored procedure using Javascript for Snowflake and the results are stored in a database table for analysis.  The proc can be set to query columns for specific values, stored in another table, to generate statistics for specific filters as well.
  
 A similar system can be developed for any cloud data warehouse platform that uses some kind of table catalog or "information_schema."
 
