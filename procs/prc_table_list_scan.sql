@@ -4,7 +4,7 @@ LANGUAGE JAVASCRIPT
 AS
 $$
 
-//Example SLICE_TYPE set to SLICE: CALL meta.prc_table_list_scan('INGRESS', '_SHR_', 'SLICE', 'INT_ID_TEST2', 'INT_ID_TEST2');
+//Example SLICE_TYPE set to SLICE: CALL meta.prc_table_list_scan('INGRESS', 'SHR_', 'SLICE', 'INT_ID_TEST2', 'INT_ID_TEST2');
 //Example SLICE_TYPE set to NAME: CALL meta.prc_table_list_scan('INGRESS', 'ATOMS_RPT_ACPT_ETLSTAGE_TEMPTELEPHONESHRALL', 'NAME', 'INT_ID_TEST3', 'INT_ID_TEST3');
 
     var schema_name = SCHEMA_NAME;
